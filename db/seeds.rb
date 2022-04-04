@@ -11,4 +11,6 @@ Users = User.create([
     {email: "Test2@gmail.com", name: "Test 2"},
     {email: "Test3@gmail.com", name: "Test 3"}, 
     {email: "Test4@gmail.com", name: "Test 4"},
+    {email: "TestNipun1@gmail.com", name: "Test 5"},
+    {email: "TestNipun2@gmail.com", name: "Test 6"},
   ])
