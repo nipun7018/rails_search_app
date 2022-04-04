@@ -1,5 +1,5 @@
 class User < ApplicationRecord
   def self.search(query)
-   user = User.all
+    User.where('name LIKE :search OR email LIKE :search', search: "%#{query}%")
   end
 end
